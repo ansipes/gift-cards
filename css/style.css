@@ -1,0 +1,60 @@
+body {
+  margin: 0 20px;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#0a1045, #7cc6fe);
+}
+
+article {
+  text-align: center;
+  background: white;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.brand {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message,
+.code > div {
+  padding: 10px 20px;
+}
+
+.code {
+  background: #0a1045;
+}
+
+.code p {
+  padding: 20px;
+  border-radius: 5px;
+  border: thin solid white;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+}
+
+@media (max-width: 767px) {
+  .brand {
+    min-height: 200px;
+  }
+  img {
+    max-width: 150px;
+  }
+}
